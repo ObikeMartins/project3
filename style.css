@@ -1,0 +1,448 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;   
+    background-color: #F5F8FA;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+.PusherCont{
+    background-color:#F5F8FA;
+    
+
+}
+
+
+/* select the nav container and apply properties */
+.nav-container{
+    background-color: #F5F8FA;
+    border-bottom: 2px solid #E0E6EA;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 88%;
+    height: 40px;
+
+    /* apply flex to get right and left navigatonsin a row */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+/* taget the ul and remove bullets */
+.right-side, .left-side{
+    list-style-type: none;
+
+}
+
+.right-side li, .left-side li{
+    display: inline-block;
+
+}
+
+/* style the anchor elements */
+
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: lato;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 4px;
+    color: #646E7A;
+}
+
+.pusher-image{
+    width: 100px;
+    height: 19px;
+}
+.account{
+    border: 2px solid #646E7A;
+    display: inline-block;
+    padding: 0;
+}
+
+.login{
+    background-color:#F5F8FA;
+    width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.content{  
+  background-color: #F5F8FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:100%;
+  min-height: 100vh;
+  height: 520px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+
+.checkout{
+    background-color: #FFFFFF;    
+    box-shadow: 0px 5px 15px 0px #0000000D;
+    box-shadow: 0px 15px 35px 0px #2B404E18;
+    height: 400px;
+    min-height: 90vh;
+    flex-basis: 60%;
+    
+}
+
+.checkout-word{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: start;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+
+
+
+.basic-size{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+ 
+
+}
+
+.number-svg{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+
+}
+
+
+.main-use-info1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    
+}
+
+.main-use-info2{
+    padding-left: 10px;
+}
+
+.main-use-info3{
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    width: 50%;
+}
+.user-input-box-email{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: #1D2C3C;
+    font-size: 11px;
+    font-weight: 100;
+    margin: 2px 0;
+}
+    
+.user-input-box input {
+    height: 25px;
+    width: 95%;
+    font-size: 10px;
+    background-color: #EDEFF2;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0 5px;
+}
+
+.user-input-box-email label{
+    width: 85%;
+    color: #1D2C3C;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 5px;    
+    margin-bottom: 5px;    
+    margin-right: 80px;
+}
+
+.user-input-box-email input{
+    height: 25px;
+    width: 75%;
+    font-size: 10px;
+    background-color: #EDEFF2;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0 10px;
+    
+
+}
+
+.user-input-box-credit{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.user-input-box-credit label{
+    width: 85%;
+    color: #1D2C3C;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 5px;    
+    margin-bottom: 5px;    
+    margin-right: 80px;
+}
+
+.user-input-box-credit input{
+    height: 25px;
+    width: 96%;
+    font-size: 10px;
+    padding: 0 10px;
+    
+
+}
+
+
+.pay-info1{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.credit-card-input {
+    display: flex;
+    justify-content: space-evenly;
+    width: 334px; /* Adjust the width as needed */
+   
+   
+    
+}
+
+
+.credit-card-input input {
+    background-color: #EDEFF2;
+    border: none;
+    box-shadow: none;
+    outline: none;
+
+}
+
+.cvv{
+    
+    padding-left: 85px;
+}
+
+
+.form-submit {
+    padding-left: 10px;
+    
+}
+.questionMark{
+    background-color: #FFFFFF;
+
+}
+.form-submit input{
+    display: block;
+    width: 96%;
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    color: #FFFFFF;
+
+    background: #038E7D;
+    cursor: pointer;
+}
+
+.Need{
+    width: 94%;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 10px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+
+}
+
+.question-svg{
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+
+}
+
+.stripe{
+    align-items: center;    
+    padding-left: 95px;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+
+.under{
+    text-decoration: none;
+    border-bottom: 1px solid #646E7A; /* Adjust thickness and color as needed */
+}
+
+.copyright{
+    font-size: 10px;
+    padding-left: 150px;
+    color: #31708F;
+    padding-top: 15px;
+}
+
+
+
+.freelancer{
+    background-color: #1179BF;    
+    box-shadow: 0px 5px 15px 0px #0000000D;
+    box-shadow: 0px 15px 35px 0px #2B404E18;
+
+    height: 400px;
+    min-height: 90vh;
+    flex-basis: 40%;
+   
+   
+   
+}
+
+.freelancer-container{
+
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #1179BF;
+    margin: 20px;
+    color: #FFFFFF;
+       
+
+}
+
+.freelancer-word{
+    font-size: 14px;
+    font-weight: 600;
+
+    
+}
+
+.price-size{
+    width: 67%;
+    height: auto;
+}
+
+.auto-renew{
+    font-style: italic;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+.renews-automatically{
+    padding-right: 30px;
+}
+
+.unorder-list{
+    margin-top:  25px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+
+.list-items{
+    margin-bottom: 5px; 
+
+}
+
+
+
+.client-sites{    
+    margin-top:  25px;
+    font-size: 10px;
+
+}
+
+.mark-svg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.Agency-plan{
+    font-weight: 600;
+}
+
+.ftt-horrible{
+    margin-top:  25px;
+    padding-top: 30px;
+    font-size: 12px;
+    font-style: italic;
+    border-top: 1px solid #FFFFFF;
+
+}
+
+.kirk-bird{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.bitmap-image{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.kirk-word{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
